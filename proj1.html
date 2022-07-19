@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <title>project 1</title>
+    <link rel="stylesheet" href="./css/proj.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <head>
+        <h1>project 1</h1>
+        <nav>
+            <ul>
+              <li><a href="proj1.html">project 1</a></li>
+              <li><a href="proj2.html">project 2</a></li>
+            </ul>
+        </nav>
+    </head>
+    <main>
+        <div class="box">
+            <h2>Software Development Tools</h2><br>
+            <div class="description">
+                <p><span>✓프로젝트 기간 : </span><span>2021.10 ~ 2021.12</span></p>
+                <p><span>✓프로젝트 인원 : </span><span>3명</span></p>
+                <p><span>✓프로젝트 목적 : </span><span>프로그래밍 툴을 소개하고 자신에게 맞는 것이 무엇일지 추천하는 것</span></p>
+                <p><span>✓사용한 언어 : </span><span>React, mysql</span></p>
+                <p><span>✓구현 기능 : </span><span>체크박스, 추천하기</span></p>
+                <p><span>✓담당한 부분 : </span><span>네비게이션 컴포넌트, 코딩툴 페이지, DB 설계</span></p>
+                <p><span>✓프리뷰 </span><span>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="./img/1.PNG" width="100%"></div>
+                          <div class="swiper-slide"><img src="./img/s_2.PNG" width="100%"></div>
+                          <div class="swiper-slide"><img src="./img/s_3.PNG" width="100%"></div>
+                          <div class="swiper-slide"><img src="./img/s_4.PNG" width="100%"></div>
+                          <div class="swiper-slide"><img src="./img/s_5.PNG" width="100%"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                </span></p>
+                <p><span>✓느낀점 : </span><span>이번 프로젝트를 통해 웹 개발의 전체적인 흐름을 알고<span>React, DB에 대해 공부할 수 있는 기회를 얻을 수 있었다.</span><br> <span>처음에는 생각했던대로 되지않아 좌절감도 느끼거나, </span><span>추천하기 기능을 구현하기위해 며칠을 고생하는 등</span>힘든 순간도 있었지만 완성하고 나니 엄청난 보람감을 느꼈다.<br> <span>DB 설계에 있어서는 아쉬운 부분이 많아, 다음에 기회가</span>있다면 보완하고 싶다는 생각이 든다. </span></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+</body>
+</html>

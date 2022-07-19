@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+body head {
+  height: 150px;
+}
+body main {
+  height: calc(100vh - 150px);
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 3%;
+}
+
+nav ul {
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  margin: 2%;
+}
+nav li a {
+  all: unset;
+}
+
+main {
+  background-color: #68b4b4;
+  overflow: auto;
+}
+main h2 {
+  text-align: center;
+  padding-top: 1%;
+}
+main .description {
+  background-color: #eedd69;
+  border-radius: 10em;
+  overflow: auto;
+  text-align: center;
+  padding-bottom: 3%;
+}
+main .description p {
+  padding-top: 3%;
+}
+
+.swiper {
+  width: 60%;
+  height: 60%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+}
+
+.swiper-slide img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide .swiper-slide-active {
+  padding-left: 10%;
+}
+
+.swiper .swiper-button-next, .swiper .swiper-button-prev {
+  color: #f5deb3;
+}
+
+.swiper .swiper-pagination-bullet {
+  background-color: #f5deb3;
+}
+
+@media screen and (max-width: 600px) {
+  span {
+    display: block;
+  }
+  .swiper {
+    width: 90%;
+    height: 90%;
+  }
+}/*# sourceMappingURL=proj.css.map */
